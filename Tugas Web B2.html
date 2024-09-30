@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagian 2</title>
+    <style>
+        *{
+            background-color: #FFF2E1;
+        }
+        h1 {
+            background: white;
+            border-radius: 20px;
+            margin: 20px 15px 20px 15px;
+            padding: 15px 20px 15px 20px;
+            color: black;
+            cursor: pointer;
+            font-weight: bold;
+
+        }
+        .btn{
+            float: right;
+            display: flex;
+            background: #3f72af;
+            border-radius: 20px;
+            margin: 20px 15px 20px 15px;
+            padding: 15px 20px 15px 20px;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn:hover{
+            background: #405D72;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Rangkuman</h1>
+    <div class="Tag_HTML">
+        <h2> Tag HTML </h2>
+        <div class="Tag">
+            <h3> Tag, Atribut, Elemen </h3>
+            <img src="./Gambar/Tag, Atribut, Elemen.png" alt="Gambar Tag, Atribut, Elemen" style="height: 50%; width: 50%; border: 3px solid black; margin-left: 20px; ">
+        </div>
+        <div class="Penulisan_Tag">
+            <h3> Penulisan Tag </h3>
+            <ul>
+                <li> Tag Pembuka
+                    <p>&lt;  &gt;</p>
+                </li>
+                <li> Tag Penutup
+                       <p> &lt;/  &gt; </p>
+                        <p> Contoh : &lt;p&gt; Ini paragraf &lt;/p&gt;</p>
+                </li>
+                <li> Single Tag
+                    <p>&lt;  /&gt; </p>
+                    <p> Contoh : &lt;br/&gt;, &lt;hr/&gt;, &lt;input/&gt; &lt;img/&gt;</p>
+                </li>
+            </ul>
+        </div>
+        <div class="Tag_Heading">
+            <h3> Tag Heading</h3>
+            <p> Berfungsi untuk menuliskan judul & sub-judul </p>
+            <img src="./Gambar/Tag Heading.png" alt="Gambar Tag Heading"  style="height: 50%; width: 50%; border: 3px solid black; margin-left: 20px;">
+        </div>
+        <div class="Tag_Paragraf">
+            <h3> Tag Paragraf, HR, dan BR </h3>
+            <ul>
+            <li>Untuk membuat paragraf baru, membuat text berada dalam sebuah paragraf.
+                Tag paragraf bisa memiliki tag penutup, bisa juga tidak.
+            <p><img src="./Gambar/Tag Paragraf.png" alt="Gambar Tag Paragraf" style="height: 30%; width: 30%; border: 3px solid black; "></p>
+            <p>Contoh : </p>
+            <p> <font size=3 face="cambria">&lt;p&gt; Ini adalah tulisan yang berada dalam paragraf. Dengan tag
+                ini maka akan tampilan dalam web akan menjadi lebih rapi &lt;/p&gt;</p></font> 
+            </li>
+            <li> &lt;br /&gt; : <i>break-line</i> (untuk berpindah ke baris selanjutnya)
+            </li>
+            <li>&lt;hr /&gt; : <i>Horizontal-line</i> (untuk menambahkan garis horizontal)
+            </li>
+            </ul>
+        </div>
+        <div class="Font_Tag">
+            <h3> Font Tag </h3>
+            <ul> Untuk mengatur penggunaan tulisan dalam halaman web (jenis 
+                tulisan, ukuran, warna, dll) <br>
+                Contoh : <br>
+                &lt;font color=blue size=7 face="arial"&gt;Test&lt;/font&gt; <br> <br>
+                Tag lain untuk manipulasi font :
+                <ul>
+                    <li>&lt;b&gt;<b> tulisan tebal </b>&lt;/b&gt;</li>
+                    <li>&lt;i&gt;<i> tulisan miring </i>&lt;/i&gt;</li>
+                    <li>&lt;u&gt;<u> tulisan bergaris bawah </u>&lt;/u&gt;</li>
+                    <li>&lt;sub&gt;sub<sub>script</sub>&lt;/sub&gt;</li>
+                    <li>&lt;sup&gt;super<sup>script</sup>&lt;/sup&gt;</li>
+                </ul>
+            </ul>
+            <img src="./Gambar/Font Tag.png" alt="Gambar Font Tag" style="height: 60%; width: 60%; border: 3px solid black; margin-left: 20px;">
+            <br>
+            <img src="./Gambar/Test Font.png" alt="Gambar Test Font" style="height: 30%; width: 30%; margin-left: 20px;">
+        </div>
+        <div class="image_tag">
+            <h3>Image Tag</h3>
+            <ul>
+                untuk membuat gambar ke dalam halaman web. <br>
+                contoh : <br> &lt;img src="logo-untad.jpg" /&gt; <br> <br>
+                Tag image memiliki beberapa attribute antara lain :
+                <ul>
+                    <li><b>src : </b> lokasi gambar yang akan ditampilkan </li>
+                    <li><b>width : </b> ukuran lebar gambar </li>
+                    <li><b>height : </b> ukuran tinggi gambar </li>
+                    <li><b>alt : </b> deskripsi tentang gambar </li>
+                    <li><b>title : </b> judul gambar </li>
+                </ul>
+            </ul>
+        </div>
+        <div class="Anchor">
+            <h3>Anchor / Hyperlink Tag</h3>
+            <ul>
+                Dipergunakan untuk menghubungkan (linking) text dan image ke halaman lain
+                atau bagian tertentu dari halaman yang sama dalam satu website atau website yang lain.
+                <br> <br> contoh : 
+                <ul>
+                    <li> Link ke halaman website lain <br>
+                        &lt;a <font color="#1e0fbe"><u>href="http://elppmuntad.org">website<</u></font>/a&gt;
+                        <br>
+                        misalnya: <br>
+                        link website tutorial HTML
+                        <a href="https://www.w3schools.com/html/"> w3schools </a>
+                    </li>
+                    <li> Link ke file lain dalam satu website <br>
+                        &lt;a href="halaman2.html">Halamam 2&lt;/a&gt;
+                    </li>
+                </ul>
+                Untuk mengakses bagian tertentu dalam sebuah halaman website, maka bagian
+                halaman tersebut harus diberi penanda.
+                <br><br>contoh : 
+                <ul>
+                    <li>Penanda yang bagian halaman <br>
+                        &lt;a id="atas">ini adalah alinea pertama&lt;/a&gt;
+                    </li>
+                    <li>Link ke file yang sama <br>
+                        &lt;a href="#atas">Kembali ke Atas&lt;/a&gt;
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <div class="Tag_Komentar">
+            <h3>Tag Komentar</h3>
+            <ul> Berfungsi sebagai pembungkus dokumen HTML atau komentar, agar tidak 
+                terbaca oleh browser.  <br>
+                <img src="./Gambar/Tag Komentar.png" alt="Gambar Tag Komentar" style="height: 60%; width: 60%; border: 3px solid black ;">
+                <br><br>contoh : <br> 
+                <img src="./Gambar/Contoh Tag Komentar.png" alt="Gambar Contoh Tag Komentar" style="height: 60%; width: 60%; border: 3px solid black ;">
+            </ul>
+        </div>
+        <ul>
+            <a href="" class="btn"> Kembali keatas </a>
+            <a href="Tugas Web B3.html" class="btn"> Selanjutnya </a>
+            <a href="Tugas Web B1.html" class="btn"> Sebelumnya </a>
+        </ul>
+    </div>
+</body>
+</html>
